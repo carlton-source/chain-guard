@@ -1,17 +1,17 @@
 
-# chain-guard
+# ChainGuard
 
 A blockchain-based security and reward system for gaming, using Chainlink VRF for provably fair random rewards.
 
 A blockchain-based gaming reward system that uses Chainlink VRF for provably fair random rewards.
 
-# Chain Sentinel
+# ChainGuard
 
-Chain Sentinel is a robust protocol designed to enhance the security, reliability, and governance of smart contracts and decentralized applications. It provides advanced circuit breaker mechanisms, emergency management tools, and analytics for on-chain operations.
+ChainGuard is a robust protocol designed to enhance the security, reliability, and governance of smart contracts and decentralized applications. It provides advanced circuit breaker mechanisms, emergency management tools, and analytics for on-chain operations.
 
 ## Table of Contents
-- [chain-guard](#chain-guard)
-- [Chain Sentinel](#chain-guard)
+- [ChainGuard](#chainguard)
+- [ChainGuard](#chainguard)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Features](#features)
@@ -32,7 +32,7 @@ Chain Sentinel is a robust protocol designed to enhance the security, reliabilit
     - [How It Works](#how-it-works)
 
 ## Overview
-Chain Sentinel aims to safeguard blockchain applications by providing:
+ChainGuard aims to safeguard blockchain applications by providing:
 - Emergency circuit breaker management
 - Automated pause and recovery mechanisms
 - Reward analytics and tiered staking
@@ -107,7 +107,7 @@ This project is licensed under the MIT License.
 ## Contracts Overview
 
 ### Core Contracts
-- **chain-guardReward** - Main reward distribution contract using Chainlink VRF for random prize selection
+- **ChainGuardReward** - Main reward distribution contract using Chainlink VRF for random prize selection
 - **ChainGuardGold** (ERC20) - In-game currency token with 10M initial supply
 - **ChainGuardHero** (ERC721) - Unique hero NFTs with sequential minting
 - **ChainGuardLoot** (ERC1155) - Multi-token loot items with metadata URI support
